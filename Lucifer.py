@@ -570,7 +570,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"💫 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀\n   🔥 𝙕𝙀𝙋𝙃𝙔𝙍 & 𝘼𝙒𝙀𝙍𝙄𝙏𝙊 🔥")
+        await event.edit(f"💥 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀\n    #𝐁𝐚𝐚𝐩𝐉𝐢𝐎𝐩 🔥")
 
 
 @luc.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
