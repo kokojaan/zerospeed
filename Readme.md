@@ -1,7 +1,7 @@
 # 【BAAP】 【JII】 【CHODNE】 【KI】 【MACHINE】
 ## 🚀 Deploy on Heroku 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BaapJispamprivate)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/anish00560/BaapJispamprivate)
 
 ## String Session FOR  BOT AND IDS 
 
