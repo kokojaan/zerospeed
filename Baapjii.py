@@ -61,7 +61,7 @@ luc10 = ""
 
 que = {}
 
-SMEX_USERS = [5046719296]
+SMEX_USERS = [2020051281]
 for x in SUDO_USERS:
     SMEX_USERS.append(x)
 
@@ -113,7 +113,7 @@ async def start_Ustad():
             print(e)
     else:
         print("Session 2 not Found")
-        session_name = "LuciXSpam"
+        session_name = "Baapjii"
         luc2 = TelegramClient(session_name, a, b)
         try:
             await luc2.start()
@@ -337,10 +337,10 @@ async def alive(event):
    ᏢᎽͲᎻϴΝ - 3.0
    ͲᎬᏞᎬͲᎻϴΝ - 1.0
    ᏢᏞႮᏀᏆΝՏ - 8 ϴҒ 8
-   ᎠᎬᏙՏ - **[ ᏃᎬᏢᎻᎽᎡ ](https://t.me/Zephyr_Owner)
+   ᎠᎬᏙՏ - **[ OXYGEN ](https://t.me/Its_Oxygen_Xd)
    ᎡᎬᏢϴ - ՏϴϴΝ 
-   ՏႮᏢᏢϴᎡͲ - **[ ҒᏆΝᎪᏞ ՏͲᎡᏆᏦᎬ](https://t.me/FinalStrikeOp)
-   ϴᏔΝᎬᎡ - **[ ᏞႮᏟᏆҒᎬᎡ ](https://t.me/FS_LUCIF3R)
+   ՏႮᏢᏢϴᎡͲ - **[ 🔥BAPP JII🔥](https://t.me/Baapjiiiiiiiiii)
+   ϴᏔΝᎬᎡ - **[ OXIDE ](https://t.me/legit_adder_001)
 
 """
     await event.client.send_file(event.chat_id,lucifer,caption=tf, force_document=False, link_preview=False)
@@ -570,7 +570,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"💥 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀\n    #𝐁𝐚𝐚𝐩𝐉𝐢𝐎𝐩 🔥")
+        await event.edit(f"💥 CHODNE KO TYAR H BRO ❤️!\n`{ms}` 𝗺𝘀\n    #𝐁𝐚𝐚𝐩𝐉𝐢𝐎𝐩 🔥")
 
 
 @luc.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -585,7 +585,7 @@ async def ping(e):
 @luc10.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\nPlease wait till it reboots..."
+        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\nRuk jaa muth maar leta hu 😂😆 ..."
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await idk.disconnect()
@@ -643,7 +643,7 @@ async def restart(e):
 @luc10.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "🔥 ᏟϴᎷᎷᎪΝᎠՏ 🔥\n\n༒ᏢᏆΝᏀ\n༒ᎡᎬՏͲᎪᎡͲ\n༒ᎫϴᏆΝ\n༒ᏞᎬᎪᏙᎬ\n༒ᏢᎫϴᏆΝ\n༒ᏴᏆᏀՏᏢᎪᎷ\n༒ᎡᎪᏆᎠ\n༒ᎡᎬᏢᏞᎽᎡᎪᏆᎠ\n༒ᎪᏞᏆᏙᎬ\n༒ᎪᎠᎠՏႮᎠϴ\n\n\n      ᏴᎽ ༒ ᎪᎡႮΝ & ᏞႮᏟᏆҒᎬᎡ ༒"
+       text = "🔥 ᏟϴᎷᎷᎪΝᎠՏ 🔥\n\n༒ᏢᏆΝᏀ\n༒ᎡᎬՏͲᎪᎡͲ\n༒ᎫϴᏆΝ\n༒ᏞᎬᎪᏙᎬ\n༒ᏢᎫϴᏆΝ\n༒ᏴᏆᏀՏᏢᎪᎷ\n༒ᎡᎪᏆᎠ\n༒ᎡᎬᏢᏞᎽᎡᎪᏆᎠ\n༒ᎪᏞᏆᏙᎬ\n༒ᎪᎠᎠՏႮᎠϴ\n\n\n      ᏴᎽ ༒ OXIGEN & OXIDE (🔥BAAP JII 🔥) ༒"
        await e.reply(text, parse_mode=None, link_preview=None )
 
 
