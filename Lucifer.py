@@ -308,11 +308,11 @@ async def gifspam(e, smex):
     except Exception:
         pass
 
-ALIVE_PIC = "https://telegra.ph/file/b66e8636032eb17e9c352.jpg"
+ALIVE_PIC = "https://telegra.ph/file/545dd8beed69906954035.jpg"
 import os
 lucifer = os.environ.get("ALIVE_PIC",None)
 if not lucifer:
- lucifer ="https://telegra.ph/file/b66e8636032eb17e9c352.jpg"
+ lucifer ="https://telegra.ph/file/545dd8beed69906954035.jpg"
 @luc.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @luc2.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @luc3.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
@@ -337,10 +337,10 @@ async def alive(event):
    ᏢᎽͲᎻϴΝ - 3.0
    ͲᎬᏞᎬͲᎻϴΝ - 1.0
    ᏢᏞႮᏀᏆΝՏ - 8 ϴҒ 8
-   ᎠᎬᏙՏ - **[ OXYGEN ](https://t.me/Its_Oxygen_Xd)
+   ᎠᎬᏙՏ - **[ MY DEVIL QUEEN ](Xd)
    ᎡᎬᏢϴ - ՏϴϴΝ 
    ՏႮᏢᏢϴᎡͲ - **[ 🔥BAPP JII🔥](https://t.me/Baapjiiiiiiiiii)
-   ϴᏔΝᎬᎡ - **[ OXIDE ](https://t.me/legit_adder_001)
+   ϴᏔΝᎬᎡ - **[ DEVIL 👿 ](https://telegra.ph/file/545dd8beed69906954035.jpg)
 
 """
     await event.client.send_file(event.chat_id,lucifer,caption=tf, force_document=False, link_preview=False)
@@ -570,7 +570,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"💥 CHODNE KO TYAR H BRO ❤️!\n`{ms}` 𝗺𝘀\n    #𝐁𝐚𝐚𝐩𝐉𝐢𝐎𝐩 🔥")
+        await event.edit(f"💥💥❤️!\n`{ms}` 𝗺𝘀\n    #𝐁𝐚𝐚𝐩𝐉𝐢𝐎𝐩 X 𝗱𝗲𝘃𝗶𝗹 🔥")
 
 
 @luc.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -643,7 +643,7 @@ async def restart(e):
 @luc10.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "🔥 ᏟϴᎷᎷᎪΝᎠՏ 🔥\n\n༒ᏢᏆΝᏀ\n༒ᎡᎬՏͲᎪᎡͲ\n༒ᎫϴᏆΝ\n༒ᏞᎬᎪᏙᎬ\n༒ᏢᎫϴᏆΝ\n༒ᏴᏆᏀՏᏢᎪᎷ\n༒ᎡᎪᏆᎠ\n༒ᎡᎬᏢᏞᎽᎡᎪᏆᎠ\n༒ᎪᏞᏆᏙᎬ\n༒ᎪᎠᎠՏႮᎠϴ\n\n\n      ᏴᎽ ༒ OXIGEN & OXIDE (🔥BAAP JII 🔥) ༒"
+       text = "🔥 ᏟϴᎷᎷᎪΝᎠՏ 🔥\n\n༒ᏢᏆΝᏀ\n༒ᎡᎬՏͲᎪᎡͲ\n༒ᎫϴᏆΝ\n༒ᏞᎬᎪᏙᎬ\n༒ᏢᎫϴᏆΝ\n༒ᏴᏆᏀՏᏢᎪᎷ\n༒ᎡᎪᏆᎠ\n༒ᎡᎬᏢᏞᎽᎡᎪᏆᎠ\n༒ᎪᏞᏆᏙᎬ\n༒ᎪᎠᎠՏႮᎠϴ\n\n\n      ᏴᎽ ༒  (🔥BAAP JII X 𝗱𝗲𝘃𝗶𝗹 🔥) ༒"
        await e.reply(text, parse_mode=None, link_preview=None )
 
 
