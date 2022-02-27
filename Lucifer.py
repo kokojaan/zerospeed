@@ -308,11 +308,11 @@ async def gifspam(e, smex):
     except Exception:
         pass
 
-ALIVE_PIC = "https://telegra.ph/file/545dd8beed69906954035.jpg"
+ALIVE_PIC = "https://telegra.ph/file/169ced909cf18cda9bef2.png"
 import os
 lucifer = os.environ.get("ALIVE_PIC",None)
 if not lucifer:
- lucifer ="https://telegra.ph/file/545dd8beed69906954035.jpg"
+ lucifer ="https://telegra.ph/file/169ced909cf18cda9bef2.png"
 @luc.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @luc2.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @luc3.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
@@ -371,7 +371,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("Succesfully Joined")
+                await event.edit("Gᴀɴᴅ ᴍᴀʀɴᴇ ᴄʜʟᴏ ᴀʙʙ 🔥")
             except Exception as e:
                 await event.edit(str(e))
         else:
@@ -398,7 +398,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("Succesfully Joined")
+                await event.edit("Gᴀɴᴅ ᴍᴀʀɴᴇ ᴄʜʟᴏ ᴀʙʙ 🔥")
             except Exception as e:
                 await event.edit(str(e))
         else:
@@ -426,7 +426,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("Succesfully Left")
+                await event.edit("Chod dia sale ko 😂")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -643,7 +643,7 @@ async def restart(e):
 @luc10.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "🔥 ᏟϴᎷᎷᎪΝᎠՏ 🔥\n\n༒ᏢᏆΝᏀ\n༒ᎡᎬՏͲᎪᎡͲ\n༒ᎫϴᏆΝ\n༒ᏞᎬᎪᏙᎬ\n༒ᏢᎫϴᏆΝ\n༒ᏴᏆᏀՏᏢᎪᎷ\n༒ᎡᎪᏆᎠ\n༒ᎡᎬᏢᏞᎽᎡᎪᏆᎠ\n༒ᎪᏞᏆᏙᎬ\n༒ᎪᎠᎠՏႮᎠϴ\n\n\n      ᏴᎽ ༒  (🔥BAAP JII X 𝗱𝗲𝘃𝗶𝗹 🔥) ༒"
+       text = "🔥 ᏟϴᎷᎷᎪΝᎠՏ 🔥\n\n🔘ᏢᏆΝᏀ\n🔘ᎡᎬՏͲᎪᎡͲ\n🔘ᎫϴᏆΝ\n🔘ᏞᎬᎪᏙᎬ\n🔘ᏢᎫϴᏆΝ\n🔘ᏴᏆᏀՏᏢᎪᎷ\n🔘ᎡᎪᏆᎠ\n🔘ᎪᏞᏆᏙᎬ\n🔘ᎪᎠᎠՏႮᎠϴ\n\n\n      ᏴᎽ ༒  (🔥ᏴᎪᎪᏢ ᎫᏆᏆ ᎪΝᎠ ᎠᎬᏙᏆᏞ 🔥) ༒"
        await e.reply(text, parse_mode=None, link_preview=None )
 
 
