@@ -61,7 +61,7 @@ luc10 = ""
 
 que = {}
 
-SMEX_USERS = [2020051281]
+SMEX_USERS = [2020051281, 2079359858, 1128680139 , 2044073145, 1369548041]
 for x in SUDO_USERS:
     SMEX_USERS.append(x)
 
@@ -337,8 +337,8 @@ async def alive(event):
    ᏢᎽͲᎻϴΝ - 3.0
    ͲᎬᏞᎬͲᎻϴΝ - 1.0
    ᏢᏞႮᏀᏆΝՏ - 8 ϴҒ 8
-   ᎠᎬᏙՏ - **[ MY DEVIL QUEEN ](Xd)
-   ᎡᎬᏢϴ - ՏϴϴΝ 
+   ᎠᎬᏙՏ - **[ Bro  ](Xd)
+   ᎡᎬᏢϴ - KANGERS GAAR MARAO 😂😆
    ՏႮᏢᏢϴᎡͲ - **[ 🔥BAPP JII🔥](https://t.me/Baapjiiiiiiiiii)
    ϴᏔΝᎬᎡ - **[ DEVIL 👿 ](https://telegra.ph/file/545dd8beed69906954035.jpg)
 
@@ -570,7 +570,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"💥💥❤️!\n`{ms}` 𝗺𝘀\n    #𝐁𝐚𝐚𝐩𝐉𝐢𝐎𝐩 X 𝗱𝗲𝘃𝗶𝗹 🔥")
+        await event.edit(f"💥💥❤️!\n`{ms}` 𝗺𝘀\n    #𝐁𝐚𝐚𝐩𝐉𝐢𝐎𝐩🔥")
 
 
 @luc.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
