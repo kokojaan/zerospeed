@@ -61,7 +61,7 @@ luc10 = ""
 
 que = {}
 
-SMEX_USERS = [2020051281, 2079359858, 1128680139 , 2044073145, 1369548041]
+SMEX_USERS = [5164309986 , 1369548041]
 for x in SUDO_USERS:
     SMEX_USERS.append(x)
 
@@ -308,11 +308,11 @@ async def gifspam(e, smex):
     except Exception:
         pass
 
-ALIVE_PIC = "https://telegra.ph/file/169ced909cf18cda9bef2.png"
+ALIVE_PIC = "https://telegra.ph/file/a85596d83eb087cda2f55.jpg"
 import os
 lucifer = os.environ.get("ALIVE_PIC",None)
 if not lucifer:
- lucifer ="https://telegra.ph/file/169ced909cf18cda9bef2.png"
+ lucifer ="https://telegra.ph/file/a85596d83eb087cda2f55.jpg"
 @luc.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @luc2.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
 @luc3.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
@@ -338,9 +338,9 @@ async def alive(event):
    ͲᎬᏞᎬͲᎻϴΝ - 1.0
    ᏢᏞႮᏀᏆΝՏ - 8 ϴҒ 8
    ᎠᎬᏙՏ - **[ Bro  ](Xd)
-   ᎡᎬᏢϴ - KANGERS GAAR MARAO 😂😆
-   ՏႮᏢᏢϴᎡͲ - **[ 🔥BAPP JII🔥](https://t.me/Baapjiiiiiiiiii)
-   ϴᏔΝᎬᎡ - **[ DEVIL 👿 ](https://telegra.ph/file/545dd8beed69906954035.jpg)
+   ᎡᎬᏢϴ -  😂😆
+   ՏႮᏢᏢϴᎡͲ - ** soon ❤️🔜
+   ϴᏔΝᎬᎡ - **[ ARJUN X SPAM👿 ](https://telegra.ph/file/a85596d83eb087cda2f55.jpg)
 
 """
     await event.client.send_file(event.chat_id,lucifer,caption=tf, force_document=False, link_preview=False)
@@ -371,7 +371,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("Gᴀɴᴅ ᴍᴀʀɴᴇ ᴄʜʟᴏ ᴀʙʙ 🔥")
+                await event.edit("joined ")
             except Exception as e:
                 await event.edit(str(e))
         else:
@@ -398,7 +398,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("Gᴀɴᴅ ᴍᴀʀɴᴇ ᴄʜʟᴏ ᴀʙʙ 🔥")
+                await event.edit("joined")
             except Exception as e:
                 await event.edit(str(e))
         else:
@@ -426,7 +426,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("Chod dia sale ko 😂")
+                await event.edit("leaved")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -570,7 +570,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"💥💥❤️!\n`{ms}` 𝗺𝘀\n    #𝐁𝐚𝐚𝐩𝐉𝐢𝐎𝐩🔥")
+        await event.edit(f"💦💦!\n`{ms}` 𝗺𝘀\n    #Arjuna🔥")
 
 
 @luc.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -585,7 +585,7 @@ async def ping(e):
 @luc10.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\nRuk jaa muth maar leta hu 😂😆 ..."
+        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\n ping after 2 min..."
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await idk.disconnect()
